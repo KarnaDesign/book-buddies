@@ -1,0 +1,16 @@
+{
+  "name": "book-buddies",
+  "version": "1.0.0",
+  "description": "Share book reviews",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ida Ferm",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.0.5",
+    "gulp-uglify": "^1.5.3"
+  }
+}

@@ -1,0 +1,61 @@
+@mainBackgroundUrl: "../images/background_book.jpg";
+
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+html
+{
+  height: 100%;
+}
+
+body
+{
+  background-image: url(@mainBackgroundUrl);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 100%;
+}
+
+#wrapper
+{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 7em;
+  width: 70%;
+  height: 70%;
+  position: relative;
+}
+
+#wrapper > div
+{
+  height: 100%;
+  width: 100%;
+  background-color: #FFF;
+  border: 2px solid #000;
+  position: absolute;
+  box-shadow: 0 0 1em #000;
+}
+
+#home
+{
+  z-index: 12;
+  left: -3em;
+  top: -3em;
+}
+
+#addBook
+{
+  z-index: 11;
+}
+
+#searchBook
+{
+  z-index: 10;
+  left: 3em;
+  top: 3em;
+}
